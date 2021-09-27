@@ -4,7 +4,11 @@ body {
 p {
     color: rgb(117, 117, 117);
 }
-
+.circle-image {
+    width: 100%;
+    border-radius: 10000px;
+    border: 5px solid rgb(255, 255, 255);
+}
 /**
  * Header - Bereich
  */
@@ -132,11 +136,6 @@ p {
     text-align: center;
     margin-bottom: 50px;
 }
-.client-image {
-    width: 100%;
-    border-radius: 10000px;
-    border: 5px solid rgb(255, 255, 255);
-}
 .client-quote {
     border: 2px solid rgb(235, 235, 235);
     background-color: rgb(255, 255, 255);
@@ -193,4 +192,57 @@ p {
     margin-top: -13px;
     border: 13px solid transparent;
     border-left: 13px solid rgb(255, 255, 255);
+}
+/** Team
+*/
+.team {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255,255,255);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.team-heading {
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.team-subheading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-image {
+    max-width: 70%;
+}
+.team-image-container{
+    text-align: center;
+}
+.team-name {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.team-name-desc {
+    text-align: center;
+    margin-bottom: 7px;
+}
+.team-icons {
+    text-align: center;
+}
+.team-icon {
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    width: 25px;
+    height: 25px;
+    border-radius: 100000px;
+    display: inline-block;
+    text-align: center;
+}
+.team-icon .fa {
+    margin-top: 5px;
+}
+.team-slogan {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
