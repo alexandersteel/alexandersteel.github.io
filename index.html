@@ -22,11 +22,11 @@
                 </div>
                 <nav class="header-navbar">
                     <ul class="header-navbar-links">
-                        <li>Home</li>
-                        <li>Leistungen</li>
-                        <li>Referenzen</li>
-                        <li>Über mich</li>
-                        <li>Kontakt</li>
+                        <li><a href="#" class="link">Home</a></li>
+                        <li><a href="#leistungen" class="link">Leistungen</a></li>
+                        <li><a href="#referenzen" class="link">Referenzen</a></li>
+                        <li><a href="#uebermich" class="link">Über mich</a></li>
+                        <li><a href="#contact" class="link">Kontakt</a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,9 +38,9 @@
                     <div class="slogan-bottom">
                         Website / Web Applikation
                     </div>
-                    <button class="solgan-button">
+                    <a href="#leistungen" class="solgan-button button">
                         Mehr erfahren!
-                    </button>
+                    </a>
                 </div>
             </div>
         </header>
@@ -95,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <div class="features">
+        <div class="features" id="leistungen">
             <div class="container">
                 <div class="row">
                     <div class="six columns">
@@ -179,7 +179,7 @@
         </div>
 
 
-        <div class="clients">
+        <div class="clients" id="referenzen">
             <div class="container">
                 <h2 class="clients-heading">Awesome <strong>Clients</strong></h2>
                 <p class="clients-subheading">See what nice things clients said about us</p>
@@ -210,7 +210,7 @@
             </div>
         </div>
 
-        <div class="team">
+        <div class="team" id="uebermich">
             <div class="container">
                 <h2 class="team-heading">Awesome <strong>Team</strong></h2>
                 <p class="team-subheading">These awesome people make work enjoyable</p>
@@ -274,7 +274,7 @@
                 </p>
             </div>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="columns six">
@@ -305,9 +305,25 @@
                             </ul>
                     </div>
                     <div class="columns six">
-                        Formular!
+                        <form class="contact-form" action="index.html" method="GET">
+                        <input class="contact-input" type="text" placeholder="Your Name*" required/>
+                        <input class="contact-input" type="text" placeholder="Your E-Mail*" required/>
+                        <textarea 
+                            class="contact-input contact-message" 
+                            placeholder="Your message*" 
+                            required
+                            id="contact-message-test"
+                            ></textarea>
+                        <input class="contact-submit" type="submit" value="Submit"/>
+                    </form>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <hr class="footer-hr"/>
+                <p id="footer-link">Umgesetzt nach HTML - <a href="#" class="link">Nach oben</a></p>
             </div>
         </div>
     </body>
