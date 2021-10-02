@@ -2,10 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Stahl Development - Developing Websites & Web Applications</title>
+        <title>Eine erste Seite</title>
 
-        <link rel="stylesheet" type="text/css" href="./vendor/skeleton/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="./vendor/skeleton/skeleton.css" />
         <link rel="stylesheet" type="text/css" href="./css/styles.css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,700" rel="stylesheet" />
         <link 
@@ -18,34 +16,34 @@
         <header class="header">
             <div class="container">
                 <div class="header-brand-wrapper">
-                    <a class="header-brand" href="index.html">STAHL</a>
+                    <a class="header-brand" href="index.html">ESCAPE</a>
                 </div>
                 <nav class="header-navbar">
                     <ul class="header-navbar-links">
-                        <li><a href="#" class="link">Home</a></li>
-                        <li><a href="#leistungen" class="link">Leistungen</a></li>
-                        <li><a href="#referenzen" class="link">Referenzen</a></li>
-                        <li><a href="#uebermich" class="link">Über mich</a></li>
-                        <li><a href="#contact" class="link">Kontakt</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="container">
                 <div class="slogan">
                     <div class="slogan-top">
-                        Ich erstelle Ihre
+                        Können Sie eine Webseite für uns entwickeln?
                     </div>
                     <div class="slogan-bottom">
-                        Website / Web Applikation
+                        Ja, wir können das!
                     </div>
-                    <a href="#leistungen" class="solgan-button button">
+                    <a href="#service" class="button solgan-button">
                         Mehr erfahren!
                     </a>
                 </div>
             </div>
         </header>
 
-        <div class="service">
+        <div class="service" id="service">
             <div class="container">
                 <div class="row">
                     <div class="eight columns">
@@ -95,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="features" id="leistungen">
+        <div class="features">
             <div class="container">
                 <div class="row">
                     <div class="six columns">
@@ -179,7 +177,7 @@
         </div>
 
 
-        <div class="clients" id="referenzen">
+        <div class="clients" id="clients">
             <div class="container">
                 <h2 class="clients-heading">Awesome <strong>Clients</strong></h2>
                 <p class="clients-subheading">See what nice things clients said about us</p>
@@ -210,7 +208,7 @@
             </div>
         </div>
 
-        <div class="team" id="uebermich">
+        <div class="team" id="team">
             <div class="container">
                 <h2 class="team-heading">Awesome <strong>Team</strong></h2>
                 <p class="team-subheading">These awesome people make work enjoyable</p>
@@ -278,52 +276,63 @@
             <div class="container">
                 <div class="row">
                     <div class="columns six">
-                        <h2 class="contact-heading">Say<strong>Hello</strong></h2>
-                        <p class="contact-subheading">Don't be shy, drop us an email and say hello, 
-                            we are really nice people</p>
-                            <ul class="contact-methods">
-                                <li>
-                                    <span class="contact-icon">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i></span>
-                                    hallo@hallo.de
-                                </li>
-                                <li>
-                                    <span class="contact-icon">
-                                    <i class="fa fa-stack-overflow" aria-hidden="true"></i></span>
-                                    hallo@hallo.de
-                                </li>
-                                <li>
-                                    <span class="contact-icon">
-                                    <i class="fa fa-github" aria-hidden="true"></i></span>
-                                    @alexander
-                                </li>
-                                <li>
-                                    <span class="contact-icon">
-                                    <i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                                    linkedin.com
-                                </li>
-                            </ul>
+                        <h2 class="contact-heading">Say <strong>Hello</strong></h2>
+                        <p class="contact-subheading">Don't be shy, drop us an email and say hello! We are
+                            a really nice bunch of people :)</p>
+                        <ul class="contact-methods">
+                            <li>
+                                <span class="contact-icon">
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                </span>
+                                +49123456789
+                            </li>
+                            <li>
+                                <span class="contact-icon">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </span>
+                                hallo@hallo.welt
+                            </li>
+                            <li>
+                                <span class="contact-icon">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </span>
+                                @htmlkurs
+                            </li>
+                            <li>
+                                <span class="contact-icon">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </span>
+                                facebook.com
+                            </li>
+                            <li>
+                                <span class="contact-icon">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </span>
+                                plus.google.com
+                            </li>
+                            <li>
+                                <span class="contact-icon">
+                                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                                </span>
+                                pinterest.com
+                            </li>
+                        </ul>
                     </div>
                     <div class="columns six">
                         <form class="contact-form" action="index.html" method="GET">
-                        <input class="contact-input" type="text" placeholder="Your Name*" required/>
-                        <input class="contact-input" type="text" placeholder="Your E-Mail*" required/>
-                        <textarea 
-                            class="contact-input contact-message" 
-                            placeholder="Your message*" 
-                            required
-                            id="contact-message-test"
-                            ></textarea>
-                        <input class="contact-submit" type="submit" value="Submit"/>
-                    </form>
+                            <input class="contact-input" type="text" placeholder="Your Name *" required="required" />
+                            <input class="contact-input" type="text" placeholder="Your Email *" required="required"  />
+                            <textarea class="contact-input contact-message" placeholder="Your message *" required="required"></textarea>
+                            <input class="contact-submit" type="submit" value="Submit message" />
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer">
             <div class="container">
-                <hr class="footer-hr"/>
-                <p id="footer-link">Umgesetzt nach HTML - <a href="#" class="link">Nach oben</a></p>
+                <hr class="footer-hr" />
+                <p>Umgesetzt nach HTML im HTML-Kurs. <a href="#">Nach oben</a></p>
             </div>
         </div>
     </body>
