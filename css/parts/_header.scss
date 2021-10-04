@@ -12,6 +12,11 @@
     color: white;
     float: right;
     margin-top: 50px;
+    display: none;
+
+    @media ($bp-larger-than-tablet) {
+        display: block;
+    }
 }
 
 .header-navbar-links li {
@@ -65,4 +70,19 @@
 .solgan-button:hover {
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 2px black;
+}
+#side-menu-trigger {
+    float: right;
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+    padding-top: 5px;
+    font-size: 200%;
+    height: inherit;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    @media ($bp-larger-than-tablet) {
+        display: none;
+    }
 }
