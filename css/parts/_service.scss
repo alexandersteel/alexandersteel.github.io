@@ -14,8 +14,21 @@
 }
 .service-icon {
     color: rgb(224, 224, 224);
-    font-size: 1250%;
+    font-size: 700%;
     text-align: center;
     margin-top: -10%;
     margin-bottom: -20%;
+    display: none;
+
+    @media ($bp-larger-than-phablet) {
+            display: block;
+        }
+
+    @media ($bp-larger-than-tablet) {
+            font-size: 1000%;
+        }
+    
+    @media ($bp-larger-than-desktop) {
+            font-size: 1250%;
+    }
 }

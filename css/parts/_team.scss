@@ -17,7 +17,13 @@
     margin-bottom: 50px;
 }
 .team-image {
-    max-width: 70%;
+    max-width: 20%;
+    margin-top: 25px;
+
+    @media ($bp-larger-than-phablet) {
+        max-width: 70%;
+        margin-top: 0px;
+    }
 }
 .team-image-container {
     text-align: center;
@@ -25,8 +31,12 @@
 .team-name {
     font-weight: bold;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
+
+    @media ($bp-larger-than-phablet) {
+        max-top: 10px
+    }
 }
 .team-name-desc {
     text-align: center;
