@@ -1,9 +1,9 @@
 /**
  * Service-Bereich
  */
- .service {
+.service {
     padding-top: $landing-padding;
-    padding-bottom: $landing-padding -15px;
+    padding-bottom: $landing-padding - 15px;
 }
 .service-gray {
     background-color: rgb(245, 245, 245);
@@ -21,14 +21,12 @@
     display: none;
 
     @media ($bp-larger-than-phablet) {
-            display: block;
-        }
-
+        display: block;
+    }
     @media ($bp-larger-than-tablet) {
-            font-size: 1000%;
-        }
-    
+        font-size: 1000%;
+    }
     @media ($bp-larger-than-desktop) {
-            font-size: 1250%;
+        font-size: 1250%;
     }
 }

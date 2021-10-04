@@ -1,9 +1,9 @@
 /**
  * Clients...
  */
- .clients {
+.clients {
     padding-top: $landing-padding;
-    padding-bottom: $landing-padding -15px;
+    padding-bottom: $landing-padding;
     background-color: rgb(245, 245, 245);
 }
 .clients-heading {
@@ -36,54 +36,52 @@
         padding-bottom: 50px;
     }
 }
-
 .client-quote p {
     margin-bottom: 5px;
 }
-
 .client-quote-author {
     font-style: normal;
     font-size: 70%;
     color: rgb(119, 147, 197);
 }
-
 @media ($bp-larger-than-phablet) {
-.client-quote::before,
-.client-quote::after {
-    content: "";
-    display: block;
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    top: 50%;
+    .client-quote::before,
+    .client-quote::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 50%;
+    }
+    .client-quote::before {
+        left: -30px;
+        margin-top: -15px;
+        border: 15px solid transparent;
+        border-right: 15px solid rgb(235, 235, 235);
+    }
+    .client-quote::after {
+        left: -26px;
+        margin-top: -13px;
+        border: 13px solid transparent;
+        border-right: 13px solid rgb(255, 255, 255);
+    }
+    .client-quote-left::before {
+        right: -30px;
+        left: auto;
+        margin-top: -15px;
+        border: 15px solid transparent;
+        border-left: 15px solid rgb(235, 235, 235);
+    }
+    .client-quote-left::after {
+        right: -26px;
+        left: auto;
+        margin-top: -13px;
+        border: 13px solid transparent;
+        border-left: 13px solid rgb(255, 255, 255);
+    }
 }
-.client-quote::before {
-    left: -30px;
-    margin-top: -15px;
-    border: 15px solid transparent;
-    border-right: 15px solid rgb(235, 235, 235);
-}
-.client-quote::after {
-    left: -26px;
-    margin-top: -13px;
-    border: 13px solid transparent;
-    border-right: 13px solid rgb(255, 255, 255);
-}
-.client-quote-left::before {
-    right: -30px;
-    left: auto;
-    margin-top: -15px;
-    border: 15px solid transparent;
-    border-left: 15px solid rgb(235, 235, 235);
-}
-.client-quote-left::after {
-    right: -26px;
-    left: auto;
-    margin-top: -13px;
-    border: 13px solid transparent;
-    border-left: 13px solid rgb(255, 255, 255);
-}
-}
+
 .client-image {
     display: none;
 
@@ -97,7 +95,7 @@
     @media ($bp-larger-than-desktop) {
         margin-top: 10px;
     }
-    @media ($bp-larger-than-desktop) {
+    @media ($bp-larger-than-desktophd) {
         margin-top: 0px;
     }
 }

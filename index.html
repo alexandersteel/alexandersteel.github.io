@@ -202,9 +202,9 @@
                     <div class="nine columns">
                         <div class="client-quote">
                             <p>„Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, labore et dolore magna.“</p>
-                            <p class="client-quote-author"> 
-                            <img src="img/client-1.jpg" class="client-quote-image cirlce-image" alt="Our first happy client" />
-                                - Jamie Mustermann, Founder of Something Media
+                            <p class="client-quote-author">
+                                <img src="img/client-1.jpg" class="client-quote-image cirlce-image" alt="Our first happy client" />
+                                 - Jamie Mustermann, Founder of Something Media
                             </p>
                         </div>
                     </div>
@@ -214,9 +214,9 @@
                     <div class="nine columns">
                         <div class="client-quote client-quote-left">
                             <p>„Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod, labore et dolore magna.“</p>
-                            <p class="client-quote-author"> 
-                            <img src="img/client-1.jpg" class="client-quote-image cirlce-image" alt="Our first happy client" />
-                                - Jamie Mustermann, Founder of Something Media
+                            <p class="client-quote-author">
+                                <img src="img/client-2.jpg" class="client-quote-image cirlce-image" alt="Our second happy client" />
+                                 - Jamie Mustermann, Founder of Something Media
                             </p>
                         </div>
                     </div>
@@ -339,14 +339,15 @@
                     </div>
                     <div class="columns six">
                         <form class="contact-form" action="index.html" method="GET">
-                            <label for="contact-name" class="contact-label">Your Name*</label>
+                            <label for="contact-name" class="contact-label">Your Name *</label>
                             <input id="contact-name" class="contact-input" type="text" placeholder="Your Name *" required="required" />
-                            
-                            <label for="contact-email" class="contact-label">Your E-Mail*</label>
+
+                            <label for="contact-email" class="contact-label">Your Email *</label>
                             <input id="contact-email" class="contact-input" type="text" placeholder="Your Email *" required="required"  />
-                            
-                            <label for="contact-message" class="contact-label">Your message*</label>
+
+                            <label for="contact-message" class="contact-label">Your message *</label>
                             <textarea id="contact-message" class="contact-input contact-message" placeholder="Your message *" required="required"></textarea>
+                            
                             <input class="contact-submit" type="submit" value="Submit message" />
                         </form>
                     </div>
@@ -359,21 +360,22 @@
                 <p>Umgesetzt nach HTML im HTML-Kurs. <a href="#">Nach oben</a></p>
             </div>
         </div>
-        <script type="text/javascript" src="./vendor/jquery/jquery-3.6.0.js"></script>
+
+        <script type="text/javascript" src="./vendor/jquery/jquery-3.2.0.js"></script>
         <script type="text/javascript" src="./vendor/jpanelmenu/jquery.jpanelmenu.js"></script>
         <script type="text/javascript" src="./vendor/modernizr/modernizr-custom.js"></script>
 
         <script type="text/javascript">
             jQuery(document).ready(function($) {
                 var jPM = $.jPanelMenu({
-	            menu: '#.side-menu',
-	            trigger: '.side-menu-trigger',
-                direction: 'right'
+                    menu: '.side-menu',
+                    trigger: '#side-menu-trigger',
+                    direction: 'right'
                 });
                 jPM.on();
                 $(".side-menu a").click(function() {
                     jPM.close();
-                })
+                });
             });
         </script>
     </body>

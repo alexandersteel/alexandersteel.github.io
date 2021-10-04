@@ -1,10 +1,10 @@
 /**
  * Kontakt
  */
- .contact {
+.contact {
     background-color: rgb(118, 143, 197);
     padding-top: $landing-padding;
-    padding-bottom: $landing-padding -15px;
+    padding-bottom: $landing-padding;
 }
 .contact-heading {
     color: rgb(255, 255, 255);
@@ -29,6 +29,7 @@
         width: 100%;
         float: none;
     }
+    
     @media ($bp-larger-than-desktop) {
         width: 50%;
         float: left;
@@ -70,6 +71,6 @@ input.contact-submit[type="submit"] {
     color: rgb(255, 255, 255);
     display: none;
 }
-.no-placeholder .contact-label{
+.no-placeholder .contact-label {
     display: block;
 }

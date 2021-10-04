@@ -1,9 +1,9 @@
 /**
  * Features - Bereich
  */
- .features {
+.features {
     padding-top: $landing-padding;
-    padding-bottom: $landing-padding -15px;
+    padding-bottom: $landing-padding - 15px;
 }
 
 .feature-icon {
@@ -45,7 +45,6 @@ $feature-text-margin-left: 90px;
         margin-left: $feature-text-margin-left;
     }
 }
-
 .feature-text h5 {
     margin-bottom: 8px;
     font-size: 150%;

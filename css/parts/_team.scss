@@ -1,11 +1,11 @@
 /**
  * Team
  */
- .team {
+.team {
     background-color: rgb(30, 30, 30);
     color: rgb(255, 255, 255);
     padding-top: $landing-padding;
-    padding-bottom: $landing-padding -15px;
+    padding-bottom: $landing-padding;
 }
 .team-heading {
     font-weight: lighter;
@@ -35,8 +35,8 @@
     margin-bottom: 0px;
 
     @media ($bp-larger-than-phablet) {
-        max-top: 10px
-    }
+        margin-top: 10px;
+    }  
 }
 .team-name-desc {
     text-align: center;
