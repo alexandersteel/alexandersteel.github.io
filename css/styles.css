@@ -209,9 +209,8 @@ body {
 
 a {
   color: #1eaedb; }
-
-a:hover {
-  color: #1b9cc5; }
+  a:hover {
+    color: #1b9cc5; }
 
 hr {
   margin-top: 3rem;
@@ -569,10 +568,9 @@ ol {
 ul {
   padding-left: 0;
   margin-top: 0; }
-
-ul ul, ul ol {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
+  ul ul, ul ol {
+    margin: 1.5rem 0 1.5rem 3rem;
+    font-size: 90%; }
 
 ol ol, ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
@@ -655,10 +653,9 @@ p {
   float: right;
   margin-top: 50px;
   display: none; }
-
-@media (min-width: 750px) {
-  .header-navbar-links {
-    display: block; } }
+  @media (min-width: 750px) {
+    .header-navbar-links {
+      display: block; } }
 
 .header-navbar-links li {
   float: left;
@@ -722,10 +719,9 @@ p {
   padding-right: 25px;
   font-size: 200%;
   height: inherit; }
-
-@media (min-width: 750px) {
-  #side-menu-trigger {
-    display: none; } }
+  @media (min-width: 750px) {
+    #side-menu-trigger {
+      display: none; } }
 
 /**
  * Clients...
@@ -756,13 +752,12 @@ p {
   font-weight: lighter;
   font-style: italic;
   position: relative; }
-
-@media (min-width: 550px) {
-  .client-quote {
-    padding-left: 75px;
-    padding-right: 75px;
-    padding-top: 55px;
-    padding-bottom: 50px; } }
+  @media (min-width: 550px) {
+    .client-quote {
+      padding-left: 75px;
+      padding-right: 75px;
+      padding-top: 55px;
+      padding-bottom: 50px; } }
 
 .client-quote p {
   margin-bottom: 5px; }
@@ -806,32 +801,27 @@ p {
 
 .client-image {
   display: none; }
-
-@media (min-width: 550px) {
-  .client-image {
-    display: block;
-    margin-top: 150px; } }
-
-@media (min-width: 750px) {
-  .client-image {
-    margin-top: 75px; } }
-
-@media (min-width: 1000px) {
-  .client-image {
-    margin-top: 10px; } }
-
-@media (min-width: 1200px) {
-  .client-image {
-    margin-top: 0px; } }
+  @media (min-width: 550px) {
+    .client-image {
+      display: block;
+      margin-top: 150px; } }
+  @media (min-width: 750px) {
+    .client-image {
+      margin-top: 75px; } }
+  @media (min-width: 1000px) {
+    .client-image {
+      margin-top: 10px; } }
+  @media (min-width: 1200px) {
+    .client-image {
+      margin-top: 0px; } }
 
 .client-quote-image {
   width: 40px;
   float: left;
   margin-right: 5px; }
-
-@media (min-width: 550px) {
-  .client-quote-image {
-    display: none; } }
+  @media (min-width: 550px) {
+    .client-quote-image {
+      display: none; } }
 
 /**
  * Team
@@ -854,11 +844,10 @@ p {
 .team-image {
   max-width: 20%;
   margin-top: 25px; }
-
-@media (min-width: 550px) {
-  .team-image {
-    max-width: 70%;
-    margin-top: 0px; } }
+  @media (min-width: 550px) {
+    .team-image {
+      max-width: 70%;
+      margin-top: 0px; } }
 
 .team-image-container {
   text-align: center; }
@@ -868,10 +857,9 @@ p {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px; }
-
-@media (min-width: 550px) {
-  .team-name {
-    margin-top: 10px; } }
+  @media (min-width: 550px) {
+    .team-name {
+      margin-top: 10px; } }
 
 .team-name-desc {
   text-align: center;
@@ -918,14 +906,12 @@ p {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s; }
-
-@media (min-width: 550px) {
-  .feature-icon {
-    display: none; } }
-
-@media (min-width: 750px) {
-  .feature-icon {
-    display: block; } }
+  @media (min-width: 550px) {
+    .feature-icon {
+      display: none; } }
+  @media (min-width: 750px) {
+    .feature-icon {
+      display: block; } }
 
 .feature-icon:hover {
   -webkit-transform: rotate(360deg);
@@ -933,14 +919,12 @@ p {
 
 .feature-text {
   margin-left: 90px; }
-
-@media (min-width: 550px) {
-  .feature-text {
-    margin-left: 0px; } }
-
-@media (min-width: 750px) {
-  .feature-text {
-    margin-left: 90px; } }
+  @media (min-width: 550px) {
+    .feature-text {
+      margin-left: 0px; } }
+  @media (min-width: 750px) {
+    .feature-text {
+      margin-left: 90px; } }
 
 .feature-text h5 {
   margin-bottom: 8px;
@@ -968,18 +952,15 @@ p {
   margin-top: -10%;
   margin-bottom: -20%;
   display: none; }
-
-@media (min-width: 550px) {
-  .service-icon {
-    display: block; } }
-
-@media (min-width: 750px) {
-  .service-icon {
-    font-size: 1000%; } }
-
-@media (min-width: 1000px) {
-  .service-icon {
-    font-size: 1250%; } }
+  @media (min-width: 550px) {
+    .service-icon {
+      display: block; } }
+  @media (min-width: 750px) {
+    .service-icon {
+      font-size: 1000%; } }
+  @media (min-width: 1000px) {
+    .service-icon {
+      font-size: 1250%; } }
 
 /**
  * Kontakt
@@ -1007,16 +988,14 @@ p {
   float: left;
   font-weight: lighter;
   height: 2.5em; }
-
-@media (min-width: 550px) {
-  .contact-methods li {
-    width: 100%;
-    float: none; } }
-
-@media (min-width: 1000px) {
-  .contact-methods li {
-    width: 50%;
-    float: left; } }
+  @media (min-width: 550px) {
+    .contact-methods li {
+      width: 100%;
+      float: none; } }
+  @media (min-width: 1000px) {
+    .contact-methods li {
+      width: 50%;
+      float: left; } }
 
 .contact-methods .fa {
   font-size: 150%; }
@@ -1056,6 +1035,9 @@ input.contact-submit[type="submit"] {
 .no-placeholder .contact-label {
   display: block; }
 
+#contact-success {
+  color: white; }
+
 /**
  * Footer
  */
@@ -1078,22 +1060,19 @@ input.contact-submit[type="submit"] {
 .side-menu {
   background-color: #f0f0f0;
   padding-top: 15px; }
-
-.side-menu h3 {
-  padding-left: 15px; }
+  .side-menu h3 {
+    padding-left: 15px; }
 
 .side-menu-navigation {
   list-style-type: none;
   border-bottom: 1px solid gainsboro; }
-
-.side-menu-navigation li {
-  border-top: 1px solid gainsboro;
-  margin-bottom: 0px; }
-
-.side-menu-navigation a {
-  padding-left: 15px;
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-decoration: none;
-  color: #1e1e1e; }
+  .side-menu-navigation li {
+    border-top: 1px solid gainsboro;
+    margin-bottom: 0px; }
+  .side-menu-navigation a {
+    padding-left: 15px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #1e1e1e; }
